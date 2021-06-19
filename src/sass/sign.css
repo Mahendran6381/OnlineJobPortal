@@ -1,0 +1,108 @@
+.sign-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.sign-in .sign-wrapper {
+  margin-top: 5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 40vw;
+  height: 70vh;
+  margin: auto;
+  border-radius: 2rem;
+  z-index: 0;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.sign-in .sign-wrapper .cheo {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.sign-in .sign-wrapper .cheo h3 {
+  margin-bottom: 50px;
+}
+
+.sign-in .sign-wrapper .cheo input {
+  position: relative;
+  width: 35vw;
+  margin: auto;
+  height: 2rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.sign-in .sign-wrapper .cheo input:focus {
+  outline: none;
+  border: none;
+}
+
+.sign-in .sign-wrapper .cheo button {
+  width: 10rem;
+  height: 3rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+
+.sign-in .sign-wrapper .cheo button:focus {
+  outline: none;
+  border: none;
+}
+
+.sign-in .sign-wrapper .cheo .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sign-in .sign-wrapper .cheo .btn-g {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 1rem;
+}
+/*# sourceMappingURL=sign.css.map */

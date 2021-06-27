@@ -1,7 +1,4 @@
-### Introduction
+### Introduction ONline Job Seeking Portal 
 
-#### A Bloging Web app for college and school student .they can post their blogs and Competitions
 
-![Alt text](/Screenshots/img1.png?raw=true)
-![Alt text](/Screenshots/img2.png?raw=true)
-![Alt text](/Screenshots/img3.png?raw=true)
+#### this website can show new jobs the users can upload their details and resume so they can apply for the jobs .this application uses firebaseauth so they can signup with their Mail and Recruiters can post the job they special options

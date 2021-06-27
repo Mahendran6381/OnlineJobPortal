@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .case {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 100%; */
+        margin: 7rem;
+    }
+
+    body {
+        background-color: rgb(81, 174, 240);
+    }
+
+    .signin-container {
+
+        min-height: 400px;
+        max-height: 700px;
+        min-width: 300px;
+        max-width: 400px;
+        background: rgba(255, 255, 255, 0.3);
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        border-radius: 10px;
+
+
+    }
+
+    button {
+        height: 30px;
+        /* margin-top: 7rem; */
+        width: 70px;
+        border: none;
+        background-color: transparent;
+        border: 2px white solid;
+        color: white;
+        border-radius: 10px;
+        transition-duration: 200ms;
+    }
+
+    button:hover {
+        background: white;
+        color: black;
+    }
+
+    input {
+        background: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 2px white solid;
+        padding: 10px;
+
+    }
+</style>
+
+<body>
+    <main className="body-signin">
+        <div class="case">
+            <div class="signin-container">
+                <label>UserName</label>
+                <input type="text">
+                <label>Password</label>
+                <input type="password">
+                <button class="btn">Sign In</button>
+                <div class="more">
+                    <p>Already Have an accout?</p>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>

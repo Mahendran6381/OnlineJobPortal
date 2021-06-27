@@ -1,16 +1,15 @@
 import firebase from "firebase";
 import React from "react";
-const api = require('dotenv').config()
-var firebaseConfig = {
-  apiKey:"< YOUR API KEY>",
-  authDomain: "stu-project-e2c02.firebaseapp.com",
-  projectId: "stu-project-e2c02",
-  storageBucket: "stu-project-e2c02.appspot.com",
-  messagingSenderId: "721970511325",
-  appId: "1:721970511325:web:49d6c771dde7ab9be78a34",
-  measurementId: "G-48X52V6PK7",
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyA02kVw9yiTwuhfKMVIyyBbPIn2kmcBStQ",
+  authDomain: "onlinejobporatal.firebaseapp.com",
+  projectId: "onlinejobporatal",
+  storageBucket: "onlinejobporatal.appspot.com",
+  messagingSenderId: "397251348795",
+  appId: "1:397251348795:web:5cea873968c1520b0d4f1e",
+  measurementId: "G-600L6BXFKX",
 };
-
 const fire = firebase.initializeApp(firebaseConfig);
 
 export default fire;
